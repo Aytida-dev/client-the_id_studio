@@ -72,7 +72,7 @@ export default function UserTable() {
 
         setLoading(true)
         try {
-            const res = await fetch("${process.env.NEXT_PUBLIC_API_URL}/sendMail", {
+            const res = await fetch(`${process.env.NEXT_PUBLIC_API_URL}/sendMail`, {
                 method: "POST",
                 headers: {
                     "Content-Type": "application/json"

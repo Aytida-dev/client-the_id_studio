@@ -35,7 +35,6 @@ export default function DeleteModal({ openDelete, closeDeleteModel, setUsers }: 
             closeDeleteModel()
         }
     }
-    console.log(process.env.NEXT_PUBLIC_API_URL);
 
 
     return (
